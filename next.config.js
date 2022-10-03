@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   assetPrefix: './',
   swcMinify: true,
+  trailingSlash: true,
   experimental: {
     images: {
       unoptimized: true
