@@ -7,7 +7,8 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "populate": "node ./scripts/populate.js"
+    "populate": "node ./scripts/populate.js",
+    "export": "next export"
   },
   "dependencies": {
     "next": "12.2.5",
