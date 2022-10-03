@@ -117,7 +117,7 @@ const Listing: NextPage<Props> = ({ data }) => {
                 <img loading='lazy' className={styles.thumbnail} src={"./pokemon-images/" + pokemon.img + "-thumbnail.webp"} alt={pokemon.name} />
               </td>
               <td>
-                <Link href={`ImageView/${pokemon.id}`}>
+                <Link href={`/ImageView/${pokemon.id}`}>
                   <a className={styles.link}>{pokemon.name}</a>
                   </Link>
               </td>

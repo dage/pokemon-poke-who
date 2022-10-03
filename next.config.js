@@ -4,6 +4,7 @@ const nextConfig = {
   assetPrefix: './',
   swcMinify: true,
   trailingSlash: true,
+  basePath: "/portfolio/pokemon-poke-who",
   experimental: {
     images: {
       unoptimized: true

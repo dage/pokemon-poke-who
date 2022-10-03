@@ -57,7 +57,7 @@ const ImageView: NextPage<Props> = ({ data }) => {
             </Head>
             <h1 className={styles.name}>{data.name}</h1>
             <div className={styles.imageView}>
-                <Image className={styles.image} layout='fill' objectFit='contain' src={"../pokemon-images/" + data.img + ".webp"} alt='Pokemon' />
+                <Image className={styles.image} layout='fill' objectFit='contain' src={"../../pokemon-images/" + data.img + ".webp"} alt='Pokemon' />
             </div>
         </>
     );
