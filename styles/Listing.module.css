@@ -1,0 +1,28 @@
+.listing {
+  border-spacing: 2rem 0;
+}
+
+.link, .sort {
+  text-decoration: underline;
+}
+
+.link:Hover {
+  text-decoration: none;
+}
+
+.sort {
+  cursor: pointer;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+.leftAlign {
+  text-align: left;
+}
+
+.thumbnail {
+  width: 2rem;
+  height: 2rem;
+}

@@ -1,0 +1,44 @@
+@keyframes blur-cycle {
+    0%, 100% {
+        filter: blur(5px);
+    }
+
+    50% {
+        filter: blur(10px);
+    }
+}
+
+@keyframes color-cycle {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.imageView {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    animation: color-cycle 19s ease infinite;
+}
+
+.image {
+    animation: blur-cycle 3s ease infinite;
+}
+
+.name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow(0.2rem 0.2rem 0.4rem black);
+    z-index: 1;
+    font-size: 5rem;
+    margin: 0rem 1rem;
+}
