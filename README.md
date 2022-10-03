@@ -6,7 +6,7 @@ A learning project to test [Next.js](https://nextjs.org/) features with the aim 
 
 Contains a listing of Pokemons that can be sorted by clicking on the column header. If clicking the name of a Pokemon, a detailed view of the Pokemon is shown.
 
-Is currently hosted on the Amazon CloudFront CDN at https://spinningowl.com/pokemon.
+Is currently hosted on the Amazon CloudFront CDN at https://www.spinningowl.com/portfolio/pokemon-poke-who/.
 
 ## Install packages
     
